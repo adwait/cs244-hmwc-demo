@@ -1,0 +1,8 @@
+{
+    "jasper" : {
+        "jdir"      : ".",
+        "script"    : "demo1_pyc.tcl",
+        "pycfile"   : "demo1.pyc.sv",
+        "context"   : "<embedded>::miter"
+    }
+}

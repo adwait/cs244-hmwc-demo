@@ -1,0 +1,14 @@
+[options]
+mode bmc
+
+[engines]
+smtbmc
+
+[script]
+read -formal seq.sv
+read -formal demo_02_delay.sv
+prep -top demo_02_delay
+
+[files]
+seq.sv
+demo_02_delay.sv
